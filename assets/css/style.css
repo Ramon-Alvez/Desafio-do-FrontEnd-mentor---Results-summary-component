@@ -1,0 +1,223 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Background);
+
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+
+
+.card{
+    background-color: white;
+    max-width: 750px;
+    display: flex;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px -10px var(--Light-lavender);
+}
+
+
+
+.resultsContainer{
+    background-image: linear-gradient(var(--CardSmooth) , var(--CardDark) 80%);
+    padding: 30px 60px 50px;
+    width: 50%;
+    /* min-height: 400px; */
+    border-radius: 30px;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    color: var(--Light-lavender);
+    font-size: 18px;
+    }
+
+    .resultsContainer .result{
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .resultsContainer .averageScore{
+        background-image: linear-gradient(var(--CircleSmooth), var(--CircleDark) 80%);
+        width: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 35px 50px;
+        border-radius: 50%;
+    }
+
+    .resultsContainer .averageScore .score {
+        font-size: 14px;
+    }
+
+    .resultsContainer .averageScore .score span{
+        font-size: 60px;
+        font-weight: 800;
+        color: var(--FontLight);
+    }
+
+    .resultsContainer .classification{
+        color: var(--FontLight);
+        font-size: 30px;
+}
+
+.summaryContainer{
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .summaryContainer .summary {
+        color: var(--DarkNeutral);
+        font-weight: 700;
+    }
+
+    .summaryContainer .category{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        border-radius: 10px;
+
+        margin-top: 15px;
+    }
+
+    .summaryContainer .categoryTitle{
+        display: flex;
+        align-items: center;
+    }
+
+    .summaryContainer .categoryResult{
+        font-weight: 800;
+        color: hsla(0, 0%, 0%, 0.4);
+    }
+
+    .summaryContainer .categoryResult span{
+        color: var(--DarkNeutral);
+    }
+
+
+    .summaryContainer .button{
+        background-color: var(--DarkNeutral);
+        height: 50px;
+        border-radius: 25px;
+        text-align: center;
+        align-content: center;
+
+        color: var(--FontLight);
+        font-weight: 500;
+
+        margin-top: 20px;
+}
+
+
+
+/* Effects */
+
+.summaryContainer .category:hover{
+    transform: scale(1.05);
+    transition: 0.3 ease-in;
+}
+
+.summaryContainer .button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5 ease-in-out;
+}
+
+/* End */
+
+
+
+#reaction{
+    background-color: var(--ReactionSmooth);
+    }
+
+    #reaction .categoryTitle{
+        color: var(--Reaction);
+    }
+
+    #reaction .categoryTitle::before{
+        content: '';
+        background-image: url(../images/icon-reaction.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+}
+
+#memory{
+    background-color: var(--MemorySmooth);
+    }
+
+    #memory .categoryTitle{
+        color: var(--Memory);
+    }
+
+    #memory .categoryTitle::before{
+        content: '';
+        background-image: url(../images/icon-memory.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+}
+
+#verbal{
+    background-color: var(--VerbalSmooth);
+    }
+
+    #verbal .categoryTitle{
+        color: var(--Verbal);
+    }
+
+    #verbal .categoryTitle::before{
+        content: '';
+        background-image: url(../images/icon-verbal.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+}
+
+#visual{
+    background-color: var(--VisualSmooth); 
+    }
+
+    #visual .categoryTitle{
+        color: var(--Visual);
+    }
+
+    #visual .categoryTitle::before{
+        content: '';
+        background-image: url(../images/icon-visual.svg);
+        background-repeat: no-repeat;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 10px;
+}
+
+.rodape{
+    margin: 30px;
+    }
+
+    .rodape .attribution {
+        font-size: 11px;
+        text-align: center;
+    }
+
+    .attribution a {
+        color: hsl(228, 45%, 44%);
+}

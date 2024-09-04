@@ -1,0 +1,33 @@
+:root{
+    /* ### Primary */
+    --Reaction: hsla(0, 100%, 67%);
+    --ReactionSmooth: hsla(0, 100%, 67%, 0.1);
+
+    --Memory: hsla(39, 100%, 56%);
+    --MemorySmooth: hsla(39, 100%, 56%, 0.1);
+
+    --Verbal: hsla(166, 100%, 37%);
+    --VerbalSmooth: hsla(166, 100%, 37%, 0.1);
+    
+    --Visual: hsla(234, 85%, 45%);
+    --VisualSmooth: hsla(234, 85%, 45%, 0.1);
+
+    /* ## Gradients */
+
+    /* (background) */
+    --CardSmooth: hsl(252, 100%, 67%);
+    --CardDark: hsl(241, 81%, 54%);
+    
+    /* (circle) */
+    --CircleSmooth: hsla(256, 72%, 46%, 1);
+    --CircleDark: hsla(241, 72%, 46%, 0);
+
+    /* ### Neutral */
+    --FontLight: hsl(0, 0%, 100%);
+    --Background: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%, 0.9);
+    --DarkNeutral: hsl(224, 30%, 27%);
+
+    /* ### Font */
+    --font: font-family: "Hanken Grotesk", sans-serif;
+}

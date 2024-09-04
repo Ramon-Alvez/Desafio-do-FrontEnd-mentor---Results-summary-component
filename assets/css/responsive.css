@@ -1,0 +1,28 @@
+@media (max-width: 800px){
+    body{
+        display: block;
+    }
+
+    .card{
+        flex-direction: column;
+        border-radius: 0;
+        box-shadow: none;
+        width: 100vw;
+    }
+
+    .resultsContainer{
+        width: 100%;
+        border-radius: 0 0 30px 30px;
+        gap: 15px;
+    }
+
+    .summaryContainer{
+        width: 100%;
+    }
+}
+
+@media (max-width: 285px){
+    .summaryContainer .category{
+        flex-direction: column;
+    }
+}

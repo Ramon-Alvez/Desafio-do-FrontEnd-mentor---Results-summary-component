@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="assets/css/constants.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+
+</head>
+
+<body>
+  <main>
+    <section class="card">
+
+      <div class="resultsContainer">
+
+        <h1 class="result">Your Result</h1>
+
+        <div class="averageScore">         
+          <p class="score">
+            <span>76</span><br>
+            of 100
+          </p>
+        </div>
+
+        <h2 class="classification">Great</h2>
+        <p class="rank">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+
+      <div class="summaryContainer">
+        <h2 class="summary">Summary</h2>
+
+        <ul>
+          <li class="category" id="reaction">
+            <h3 class="categoryTitle">Reaction</h3>
+
+            <p class="categoryResult">
+              <span>80</span> / 100
+            </p>
+          </li>
+
+          <li class="category" id="memory">
+            <h3 class="categoryTitle">Memory</h3>
+
+            <p class="categoryResult">
+              <span>92</span> / 100
+            </p>
+          </li>
+
+          <li class="category" id="verbal">
+            <h3 class="categoryTitle">Verbal</h3>
+
+            <p class="categoryResult">
+              <span>61</span> / 100
+            </p>
+          </li>
+
+          <li class="category" id="visual">
+            <h3 class="categoryTitle">Visual</h3>
+
+            <p class="categoryResult">
+              <span>72</span> / 100
+            </p>
+          </li>
+        </ul>
+
+        <a class="button" href="#" aria-label="Continue">Continue</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://www.linkedin.com/in/ramon-alvez/">Ramon Alves</a>.
+    </div>
+  </footer>
+</body>
+
+</html>
