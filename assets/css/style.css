@@ -123,12 +123,13 @@ body{
 /* Effects */
 
 .summaryContainer .category:hover{
+    cursor: default;
     transform: scale(1.05);
     transition: 0.3 ease-in;
 }
 
 .summaryContainer .button:hover{
-    cursor: pointer;
+    background-image: linear-gradient(var(--CardSmooth), var(--CardDark));
     transform: scale(1.05);
     transition: 0.5 ease-in-out;
 }
